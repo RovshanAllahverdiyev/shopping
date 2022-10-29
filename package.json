@@ -1,0 +1,25 @@
+ {
+  "name": "ecomwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rovshan13/shopping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rovshan13/shopping/issues"
+  },
+  "homepage": "https://github.com/Rovshan13/shopping#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express.js": "^1.0.0",
+    "firebase-admin": "^11.2.0",
+    "nodemon": "^2.0.20"
+  }
+}
