@@ -13,6 +13,7 @@ const app = express();
 //middlewares
 app.use(express.static(staticPath));
 
+
 //routes
 //home route
 app.get("/", (req,res) => {
@@ -23,6 +24,7 @@ app.get("/", (req,res) => {
 app.get('/signup',(req,res) => {
     res.sendFile(path.join(staticPath, "signup.html"))
 })
+
 
 // 404 route
 app.get('/404', (req,res) => {
